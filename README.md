@@ -125,6 +125,8 @@ model = BertBiLSTMForNER.from_pretrained(MODEL_PATH, num_labels=len(label_list))
 <text x="55" y="415" text-anchor="middle" fill="var(--color-text-secondary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">α = 0.5</text>
 <text x="615" y="415" text-anchor="middle" fill="var(--color-text-secondary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">1-α = 0.5</text>
 </svg>
+<br>
+(Claude生成)
 ## 模型的下载
 如果想要获得已经训练好的权重final_model文件<br>
 >https://huggingface.co/XILANHUA11/BERT_BiLSTM_FOR_CNER
